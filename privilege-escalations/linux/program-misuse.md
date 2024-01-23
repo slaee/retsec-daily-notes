@@ -152,8 +152,13 @@ It works, this will work also in your current linux machine with ssh-keygen. You
 
 # References
 https://pwn.college/fundamentals/program-misuse
-[https://hurricane618.me/2022/05/26/pwn-college-writeup-one/](https://hurricane618.me/2022/05/26/pwn-college-writeup-one/ "https://hurricane618.me/2022/05/26/pwn-college-writeup-one/")
-[https://seanpesce.blogspot.com/2023/03/leveraging-ssh-keygen-for-arbitrary.html](https://seanpesce.blogspot.com/2023/03/leveraging-ssh-keygen-for-arbitrary.html "https://seanpesce.blogspot.com/2023/03/leveraging-ssh-keygen-for-arbitrary.html")
+
+https://hurricane618.me/2022/05/26/pwn-college-writeup-one/
+
+https://seanpesce.blogspot.com/2023/03/leveraging-ssh-keygen-for-arbitrary.html
+
 https://github.com/Pkcs11Interop/pkcs11-mock
-[https://medium.com/@D00MFist/generate-keys-or-generate-dylib-loads-c99ed48f323d](https://medium.com/@D00MFist/generate-keys-or-generate-dylib-loads-c99ed48f323d "https://medium.com/@D00MFist/generate-keys-or-generate-dylib-loads-c99ed48f323d")
+
+https://medium.com/@D00MFist/generate-keys-or-generate-dylib-loads-c99ed48f323d
+
 https://stackoverflow.com/questions/65444761/how-to-go-about-writing-a-pkcs11-wrapper-around-my-device
