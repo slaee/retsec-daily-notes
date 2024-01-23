@@ -95,7 +95,7 @@ cannot read public key from pkcs11
 
 The exploit won't work because `ssh-keygen -D ` expects pkcs11 library (maybe this will work in older version of `ssh`?) and `lib2shell.so` does not really implements pkcs11 interface.
 
-Second attempt, going through [Sean Pesce's Research Blog](https://seanpesce.blogspot.com/2023/03/leveraging-ssh-keygen-for-arbitrary.html "https://seanpesce.blogspot.com/2023/03/leveraging-ssh-keygen-for-arbitrary.html)  that applies patches, also `hello.so` won't work so we need to write our own ORW that implements pkcs11 as our third attempt.
+Second attempt, going through [Sean Pesce's Research Blog](https://seanpesce.blogspot.com/2023/03/leveraging-ssh-keygen-for-arbitrary.html)  that applies patches, also `hello.so` won't work so we need to write our own ORW that implements pkcs11 as our third attempt.
 
 Third attempt, I found [jariq's pkcs11 projects](https://stackoverflow.com/a/65446632) , EMPTY-PKCS11 doesn't have `C_GetFunctionList` so I chose his minimal [PCKS11-MOCK](https://github.com/Pkcs11Interop/pkcs11-mock) and modified it to read the `/flag` or we can spawn a root shell.  To make this work modify the `C_Initialize` interface implementation with
 ```c
