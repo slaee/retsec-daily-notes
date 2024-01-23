@@ -93,7 +93,7 @@ provider ./lib2shell.so is not a PKCS11 library
 cannot read public key from pkcs11
 ```
 
-The exploit won't work because `ssh-keygen -D ` expects pkcs11 library (maybe this will work in older version of `ssh`?) and `lib2shell.so` is not really implements pkcs11 interface.
+The exploit won't work because `ssh-keygen -D ` expects pkcs11 library (maybe this will work in older version of `ssh`?) and `lib2shell.so` does not really implements pkcs11 interface.
 
 Second attempt, going through [Sean Pesce's Research Blog](https://seanpesce.blogspot.com/2023/03/leveraging-ssh-keygen-for-arbitrary.html "https://seanpesce.blogspot.com/2023/03/leveraging-ssh-keygen-for-arbitrary.html)  that applies patches, also `hello.so` won't work so we need to write our own ORW that implements pkcs11 as our third attempt.
 
