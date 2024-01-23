@@ -1,1 +1,1 @@
-# sec-dailylife-notes
+# Discover my daily notes in Cyber Security
