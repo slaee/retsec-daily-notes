@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "privilege-escalations/linux/program-misuse.md",
+                "file": "bin-programs/linux/elf-binary-analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "privilege-escalations/linux/program-misuse.md",
+                "file": "bin-programs/linux/elf-binary-analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "privilege-escalations/linux/program-misuse.md",
+                "file": "bin-programs/linux/elf-binary-analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "privilege-escalations/linux/program-misuse.md"
+                "file": "bin-programs/linux/elf-binary-analysis.md"
               }
             }
           }
@@ -148,10 +148,14 @@
   },
   "active": "294b5c2ad71de979",
   "lastOpenFiles": [
+    "program-crashing/characters-that-can-crush.md",
+    "bin-programs/linux/elf-binary-analysis.md",
+    "program-crashing",
     "README.md",
     "privilege-escalations/linux/program-misuse.md",
+    "bin-programs/linux",
+    "bin-programs",
     "privilege-escalations/linux",
-    "Untitled",
     "privilege-escalations"
   ]
 }
