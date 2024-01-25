@@ -148,11 +148,11 @@
   },
   "active": "294b5c2ad71de979",
   "lastOpenFiles": [
-    "program-crashing/characters-that-can-crush.md",
+    "privilege-escalations/linux/program-misuse.md",
     "bin-programs/linux/elf-binary-analysis.md",
+    "program-crashing/characters-that-can-crush.md",
     "program-crashing",
     "README.md",
-    "privilege-escalations/linux/program-misuse.md",
     "bin-programs/linux",
     "bin-programs",
     "privilege-escalations/linux",

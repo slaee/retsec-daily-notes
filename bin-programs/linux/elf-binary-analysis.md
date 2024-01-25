@@ -16,3 +16,10 @@ Tools:
 
 `kaitai struct` [kaitai io](https://ide.kaitai.io/) to look through ELF interactively.
 
+
+# References
+https://pwn.college/fundamentals/program-interaction
+
+https://ide.kaitai.io/
+
+https://github.com/kaitai-io/kaitai_struct_webide/wiki/Features
