@@ -14,6 +14,8 @@ Characteristics of ECB Mode:
 3. Vulnerability to Pattern Recognition Attacks: Because identical plaintext blocks produce identical ciphertext blocks, ECB mode is highly susceptible to pattern recognition attacks. Attackers can exploit repeated patterns in the plaintext to deduce information about the encrypted data.
 4. Replay Attacks: ECB mode is vulnerable to replay attacks, where an attacker can intercept encrypted blocks and replay them to the system to produce the same output, potentially compromising the integrity and security of the encrypted data.
 
+More details for ECB: [Medium Blog](https://medium.com/@anuradharanaweera/security-concerns-of-aes-ecb-encryption-mode-5d9b9ac0e6e6#:~:text=AES%20ECB%20(Electronic%20Codebook)%20encryption%20mode%20is%20vulnerable%20due%20to,or%20the%20encryption%20key%20used.)
+
 Comparison with GCM and CBC Modes:
 
 GCM (Galois/Counter Mode):
